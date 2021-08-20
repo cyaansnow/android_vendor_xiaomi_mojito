@@ -8,6 +8,9 @@
 #
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)
 #service thermal-engine /vendor/bin/thermal-engine
 #	class main
 #	user root
@@ -16,6 +19,7 @@
 #	socket thermal-recv-client stream 0660 system oem_2907
 #	socket thermal-recv-passive-client stream 0660 system oem_2907
 #	socket thermal-send-rule stream 0660 system oem_2907
+<<<<<<< HEAD
 =======
 service thermal-engine /vendor/bin/thermal-engine
 	class main
@@ -26,3 +30,5 @@ service thermal-engine /vendor/bin/thermal-engine
 	socket thermal-recv-passive-client stream 0660 system oem_2907
 	socket thermal-send-rule stream 0660 system oem_2907
 >>>>>>> d047fb5 (sm6150-common: Import thermal hals blobs)
+=======
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)

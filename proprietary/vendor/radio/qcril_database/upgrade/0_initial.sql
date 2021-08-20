@@ -27,10 +27,17 @@ INSERT INTO "qcril_emergency_source_mcc_table" VALUES('525','1777','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('426','112','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('426','997','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('426','999','','');
+<<<<<<< HEAD
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('432','112','','limited');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('432','110','','limited');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('432','115','','limited');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('432','125','','limited');
+=======
+INSERT INTO "qcril_emergency_source_mcc_table" VALUES('432','112','','');
+INSERT INTO "qcril_emergency_source_mcc_table" VALUES('432','110','','');
+INSERT INTO "qcril_emergency_source_mcc_table" VALUES('432','115','','');
+INSERT INTO "qcril_emergency_source_mcc_table" VALUES('432','125','','');
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('418','112','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('418','911','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('418','104','','');
@@ -102,9 +109,12 @@ INSERT INTO "qcril_emergency_source_mcc_table" VALUES('510','119','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('510','115','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('510','129','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('452','112','','');
+<<<<<<< HEAD
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('452','113','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('452','114','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('452','115','','');
+=======
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('502','112','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('502','911','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('502','999','','');
@@ -119,6 +129,7 @@ INSERT INTO "qcril_emergency_source_mcc_table" VALUES('456','199','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('456','117','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('456','118','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('456','119','','');
+<<<<<<< HEAD
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('456','1299','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('457','191','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('457','192','','');
@@ -126,6 +137,11 @@ INSERT INTO "qcril_emergency_source_mcc_table" VALUES('457','199','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('457','1190','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('457','1191','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('457','1195','','');
+=======
+INSERT INTO "qcril_emergency_source_mcc_table" VALUES('457','191','','');
+INSERT INTO "qcril_emergency_source_mcc_table" VALUES('457','192','','');
+INSERT INTO "qcril_emergency_source_mcc_table" VALUES('457','199','','');
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('706','122','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('704','122','','');
 INSERT INTO "qcril_emergency_source_mcc_table" VALUES('704','119','','');
@@ -253,6 +269,7 @@ INSERT INTO "qcril_emergency_source_voice_table" VALUES('602','180','','full');
 INSERT INTO "qcril_emergency_source_voice_table" VALUES('255','101','','full');
 INSERT INTO "qcril_emergency_source_voice_table" VALUES('255','102','','full');
 INSERT INTO "qcril_emergency_source_voice_table" VALUES('255','103','','full');
+<<<<<<< HEAD
 INSERT INTO "qcril_emergency_source_voice_table" VALUES('456','117','','full');
 INSERT INTO "qcril_emergency_source_voice_table" VALUES('456','119','','full');
 INSERT INTO "qcril_emergency_source_voice_table" VALUES('456','1299','','full');
@@ -263,6 +280,8 @@ INSERT INTO "qcril_emergency_source_voice_table" VALUES('432','110','','full');
 INSERT INTO "qcril_emergency_source_voice_table" VALUES('432','115','','full');
 INSERT INTO "qcril_emergency_source_voice_table" VALUES('432','125','','full');
 INSERT INTO "qcril_emergency_source_voice_table" VALUES('432','112','','full');
+=======
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)
 CREATE TABLE qcril_emergency_source_hard_mcc_table(MCC TEXT, NUMBER TEXT, IMS_ADDRESS TEXT, SERVICE TEXT, PRIMARY KEY(MCC,NUMBER));
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('460','110','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('460','119','','');
@@ -444,7 +463,10 @@ INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('421','194','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('401','101','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('401','102','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('401','103','','');
+<<<<<<< HEAD
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('401','104','','');
+=======
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('401','112','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('744','911','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('744','112','','');
@@ -461,7 +483,10 @@ INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('425','100','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('425','101','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('425','102','','');
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('425','1221','','');
+<<<<<<< HEAD
 INSERT INTO "qcril_emergency_source_hard_mcc_table" VALUES('257','112','','');
+=======
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)
 CREATE TABLE qcril_emergency_source_nw_table(MCC TEXT, NUMBER TEXT, IMS_ADDRESS TEXT, SERVICE TEXT, PRIMARY KEY(MCC,NUMBER));
 CREATE TABLE qcril_emergency_source_escv_iin_table(IIN TEXT, NUMBER TEXT, ESCV INTEGER, ROAM TEXT, PRIMARY KEY(IIN,NUMBER,ROAM));
 CREATE TABLE qcril_emergency_source_escv_nw_table(MCC TEXT, MNC TEXT, NUMBER TEXT, ESCV INTEGER, PRIMARY KEY(MCC,NUMBER, ESCV));
@@ -485,10 +510,13 @@ INSERT INTO "qcril_emergency_source_escv_nw_table" VALUES('202','','100',1);
 INSERT INTO "qcril_emergency_source_escv_nw_table" VALUES('202','','199',4);
 INSERT INTO "qcril_emergency_source_escv_nw_table" VALUES('202','','166',2);
 INSERT INTO "qcril_emergency_source_escv_nw_table" VALUES('716','06','105',1);
+<<<<<<< HEAD
 INSERT INTO "qcril_emergency_source_escv_nw_table" VALUES('432','','110','1');
 INSERT INTO "qcril_emergency_source_escv_nw_table" VALUES('432','','115','2');
 INSERT INTO "qcril_emergency_source_escv_nw_table" VALUES('432','','125','4');
 INSERT INTO "qcril_emergency_source_escv_nw_table" VALUES('432','','112','0');
+=======
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)
 CREATE TABLE qcril_emergency_source_mcc_mnc_table(MCC TEXT, MNC TEXT, NUMBER TEXT, IMS_ADDRESS TEXT, SERVICE TEXT, PRIMARY KEY(MCC,NUMBER,MNC));
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('262','02','112','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('234','20','999','','');
@@ -692,6 +720,7 @@ INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('370','02','911','',''
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('525','05','995','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('724','02','190','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('334','020','066','','');
+<<<<<<< HEAD
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('257','01','101','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('257','01','102','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('257','01','103','','');
@@ -700,6 +729,8 @@ INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('257','01','112','',''
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('257','01','911','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('257','02','112','','');
 INSERT INTO "qcril_emergency_source_mcc_mnc_table" VALUES('257','04','112','','');
+=======
+>>>>>>> dc63048 (sm6150-common: Update common blobs from mojito)
 CREATE TABLE qcril_emergency_source_voice_mcc_mnc_table(MCC TEXT, MNC TEXT, NUMBER TEXT, IMS_ADDRESS TEXT, SERVICE TEXT, PRIMARY KEY(MCC,NUMBER,MNC));
 INSERT INTO "qcril_emergency_source_voice_mcc_mnc_table" VALUES('466','92','119','','');
 INSERT INTO "qcril_emergency_source_voice_mcc_mnc_table" VALUES('466','92','110','','');
