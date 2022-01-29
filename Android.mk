@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter mojito sweet tucana,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),mojito)
 
 endif
