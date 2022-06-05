@@ -1,7 +1,11 @@
 {
   "config": {
     "hw_platform": ["MTP","QRD","Dragon","Surf", "HDK"],
+<<<<<<< HEAD
     "soc_id": ["339", "340", "361", "450"]
+=======
+    "soc_id": ["339", "340", "361"]
+>>>>>>> 957d3d9 (mojito: Decommonize and Import from mojito V13.0.7.0.SKGMIXM)
   },
   "ccd_walk": {
     "owner": "sns_ccd",
@@ -14,4 +18,8 @@
     "hmps": { "ver": "0","type": "int",
               "data": "0x4" }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 957d3d9 (mojito: Decommonize and Import from mojito V13.0.7.0.SKGMIXM)

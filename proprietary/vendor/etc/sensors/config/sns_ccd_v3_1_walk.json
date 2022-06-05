@@ -1,7 +1,11 @@
 {
   "config": {
     "hw_platform": ["MTP", "Surf", "RCM", "QRD", "HDK"],
+<<<<<<< HEAD
     "soc_id": ["415", "439", "456"]
+=======
+    "soc_id": ["415", "439", "456", "501", "502"]
+>>>>>>> 957d3d9 (mojito: Decommonize and Import from mojito V13.0.7.0.SKGMIXM)
   },
   "ccd_walk": {
     "owner": "sns_ccd",
@@ -36,4 +40,8 @@
     "ltt": { "ver": "0","type": "int",
               "data": "0xFC9C" }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 957d3d9 (mojito: Decommonize and Import from mojito V13.0.7.0.SKGMIXM)
